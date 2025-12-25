@@ -1,99 +1,94 @@
-📝 Personal Information Form
-📌 Overview
+# 📝 Personal Information Form
 
-This project is a Personal Information Form built using HTML, CSS, and JavaScript.
-It collects essential user details such as name, mobile number, email, date of birth, gender, city, languages known, address, and also allows users to upload a resume and a photo.
+## 📌 Overview
 
-The form includes client-side validation and displays a confirmation alert upon successful submission.
+This project is a **Personal Information Form** built using **HTML, CSS, and JavaScript**.  
+It collects essential user details such as name, mobile number, email, date of birth, gender, city, languages known, address, and allows users to upload a **resume** and a **photo**.
 
-✨ Features
-✅ Mandatory Fields
+The form includes **client-side validation** and displays a **confirmation alert** upon successful submission.
 
+---
+
+## ✨ Features
+
+### ✅ Mandatory Fields
 Ensures all essential user information is filled before submission.
 
-🔍 Validation Rules
+### 🔍 Validation Rules
+- 📱 Mobile number must be exactly **10 digits**
+- 📧 Email validates proper email format
+- 📄 Resume upload accepts **PDF files only**
+- 🖼️ Photo upload supports **JPG, JPEG, and PNG** formats
 
-📱 Mobile Number: Must be exactly 10 digits
+### 🎨 User Interface
+- Clean and readable form layout using containers and labels
+- Responsive design suitable for desktop and mobile screens
 
-📧 Email: Validates proper email format
+### 🧩 Interactive Elements
+- 🔘 Radio buttons for gender selection  
+- ⬇️ Dropdown menu for city selection  
+- ☑️ Checkboxes for languages known  
 
-📄 Resume Upload: Accepts PDF files only
+### ⚙️ Form Handling
+- ⚡ Displays a confirmation alert on successful submission
+- 🔄 Automatically resets the form after submission
 
-🖼️ Photo Upload: Supports JPG, JPEG, and PNG formats
+---
 
-🎨 User Interface
+## 📁 File Structure
 
-Clean and readable form layout using containers and labels
-
-Responsive design suitable for desktop and mobile screens
-
-🧩 Interactive Elements
-
-🔘 Radio buttons for gender selection
-
-⬇️ Dropdown menu for city selection
-
-☑️ Checkboxes for languages known
-
-⚙️ Form Handling
-
-⚡ Displays a confirmation alert on successful submission
-
-🔄 Automatically resets the form after submission
-
-📁 File Structure
 project-root/
 │
 ├── index.html        # Main HTML file containing the form
 ├── style.css         # CSS file for styling the form
 └── README.md         # Project documentation
 
-🚀 How to Use
+---
 
-Clone or download the project files.
+## 🚀 How to Use
 
-Open index.html in any web browser.
+1. Clone or download the project files.
+2. Open `index.html` in any web browser.
+3. Fill in the required fields marked with `*`.
+4. Upload a **PDF resume** (mandatory) and an optional photo (JPG/PNG).
+5. Click **Submit Form**.
+6. A confirmation alert will appear, and the form will reset.
 
-Fill in all required fields marked with *.
+---
 
-Upload a PDF resume (mandatory) and an optional photo (JPG/PNG).
+## 🛠️ Customization
 
-Click Submit Form.
+- ➕ Add more cities or languages by editing the `<select>` or checkbox inputs in `index.html`
+- 🎨 Modify `style.css` to change colors, fonts, spacing, or layout
+- ⚙️ Extend form behavior by updating JavaScript (e.g., backend integration)
 
-A confirmation alert will appear, and the form will reset.
+---
 
-🛠️ Customization
+## 💻 Technologies Used
 
-➕ Add more cities or languages by editing the <select> or checkbox inputs in index.html
+- HTML5 – Structure of the form
+- CSS3 – Styling and layout
+- JavaScript – Form validation and submission handling
 
-🎨 Modify style.css to change colors, fonts, spacing, or layout
+---
 
-⚙️ Extend form behavior by updating the JavaScript function (e.g., connect to a backend)
+## 📝 Notes
 
-💻 Technologies Used
+- This project currently displays only an alert on submission.
+- Backend integration is required to store or process form data.
+- Resume upload **must be in PDF format** for validation to pass.
 
-HTML5 – Structure of the form
+---
 
-CSS3 – Styling and layout
+## 👨‍💻 Author
 
-JavaScript – Form validation and submission handling
+Sri Balakumar  
+GitHub: https://github.com/Sri-balakumar
 
-📝 Notes
+---
 
-This project currently displays only a confirmation alert on submission.
+## 📜 License
 
-To store or process form data, backend integration (PHP, Node.js, Python, etc.) is required.
-
-Resume upload must be in PDF format for validation to pass.
-
-👨‍💻 Author
-
-Sri Balakumar
-
-GitHub: @Sri-balakumar
-
-📜 License
-
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ⭐ Star this repository if you found it useful!
