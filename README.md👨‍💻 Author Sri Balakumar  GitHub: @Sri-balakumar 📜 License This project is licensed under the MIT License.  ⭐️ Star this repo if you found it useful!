@@ -1,0 +1,95 @@
+Personal Information Form
+Overview
+
+This project is a Personal Information Form built using HTML, CSS, and JavaScript. The form collects essential user details such as name, mobile number, email, date of birth, gender, city, languages known, address, and allows users to upload a resume and a photo.
+
+The form includes client-side validation and displays a confirmation alert upon successful submission.
+
+Features
+Mandatory Fields
+
+Ensures essential user information is captured before submission.
+
+Validation
+
+📱 Mobile number must be exactly 10 digits
+
+📧 Email input validates proper email format
+
+📄 Resume upload accepts PDF files only
+
+🖼️ Photo upload supports JPG, JPEG, and PNG formats
+
+User Interface
+
+Clean and readable form layout using containers and labels
+
+Responsive structure suitable for desktop and mobile screens
+
+Interactive Elements
+
+🔘 Radio buttons for gender selection
+
+⬇️ Dropdown menu for city selection
+
+☑️ Checkboxes for languages known
+
+Form Handling
+
+🔄 Form automatically resets after submission
+
+⚡ Displays a confirmation alert on successful submission
+
+File Structure
+project-root/
+│
+├── index.html        # Main HTML file containing the form
+├── style.css         # CSS file for styling the form
+└── README.md         # Project documentation
+
+How to Use
+
+Clone or download the project files.
+
+Open index.html in any web browser.
+
+Fill in the required fields marked with *.
+
+Upload a PDF resume (mandatory) and an optional photo (JPG/PNG).
+
+Click Submit Form.
+
+A confirmation alert will appear, and the form will reset.
+
+Customization
+
+➕ Add more cities or languages by editing the <select> and checkbox inputs in index.html.
+
+🎨 Modify style.css to change colors, fonts, spacing, or layout.
+
+⚙️ Extend form behavior by updating the formSubmitted() JavaScript function (e.g., connect to a backend).
+
+Technologies Used
+
+HTML5 – Structure of the form
+
+CSS3 – Styling and layout (external stylesheet)
+
+JavaScript – Form submission handling and validation
+
+Notes
+
+This project currently displays an alert on submission.
+
+To store or process form data, backend integration (e.g., PHP, Node.js, or Python) is required.
+
+Ensure the resume file is uploaded in PDF format for validation to pass.
+
+👨‍💻 Author
+Sri Balakumar
+
+GitHub: @Sri-balakumar
+📜 License
+This project is licensed under the MIT License.
+
+⭐️ Star this repo if you found it useful!
